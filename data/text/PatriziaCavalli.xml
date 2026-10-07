@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Poesie (1974-1992)</title>
+				<author>Patrizia Cavalli</author>
+				<respStmt>
+					<resp>Text Encoding by </resp>
+					<name>Tiziana Pasciuto</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p>This document is being made available for demonstration and testing purposes only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+               <!-- Informazioni su autore e lingua -->
+               <msContents>
+                  <msItem>
+                     <textLang mainLang="italian">Italiano</textLang>
+                  </msItem>
+               </msContents>			
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+               <div>
+				  <pb n="PatriziaCavalli_01" xml:id="PatriziaCavalli_01"/>				  
+                      <p xml:id="PatriziaCavalli_01_001" n="1">Qualcuno mi ha detto</p>
+					  <p xml:id="PatriziaCavalli_01_002" n="2">che certo le mie poesie</p>
+					  <p xml:id="PatriziaCavalli_01_003" n="3">non cambieranno il mondo.</p>
+					  <p xml:id="PatriziaCavalli_01_004" n="4">Io rispondo che certo sì</p>
+					  <p xml:id="PatriziaCavalli_01_005" n="5">le mie poesie</p>
+					  <p xml:id="PatriziaCavalli_01_006" n="6">non cambieranno il mondo.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
